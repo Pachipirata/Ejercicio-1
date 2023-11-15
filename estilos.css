@@ -1,0 +1,84 @@
+/*estilos*/
+/*css.tricks.com pagina para ver los atajos de css muy util*/
+/* DEFINO EL MARGEN DE LA PAGINA Y EL BORDE CON COLOR*/
+/*el punto adelante define un estilo para usar en html*/
+*{
+    box-sizing:content-box;
+    }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: chartreuse;
+    }
+.container-fluid{
+    margin: 10px 5px;
+    border: 2px solid rgb(43, 47, 45);
+    padding: 7px;
+}
+/*APLICA EL BORDE A TODAS LAS IMAGENES*/
+img{
+    align-items: center;
+    margin: 5px 5px;
+    padding: 5px;
+}
+/*APLICA EL BORDE SOLO A LAS IMAGENES DENTRO DEL HEADER*/
+header img{
+    margin: 10px 5px;
+
+    padding: 7px;
+}
+/*DENTRO DEL DIV DEL HEADER*/
+header div{
+    display: flex;/*atributo flexible*/
+    flex-direction: row;/*direccion del atributo*/
+    flex-wrap: wrap;/*en fila y se acomode el contenido*/
+    align-content: center;/* centrado, inicial, izquierda,importante*/
+    justify-content: center;/**/
+    height: 250px;/*altura*/
+}
+/*EL NUMERAL SE USA PARA QUE EL ESTILO APLIQUE A IMAGENES*/
+#logo{/*EN HTML LO USAMOS CON id=""*/
+    display: flex;/*atributo flexible uno al lado del otro*/
+    flex-direction: row;/*direccion del atributo*/
+    flex-wrap: wrap;/*en fila y se acomode el contenido*/
+    align-content: center;/* centrado, inicial, izquierda,importante*/
+    justify-content: flex-start;/**/
+    align-items: flex-start;/*alinear los demas items*/
+    height: 7px;/*altura*/
+}
+/*EL PUNTO SE USA D*/
+.logo{/*EN HTML LO USAMOS CON class="" y concatenar varias class con espacios*/
+    background-color: aliceblue;
+
+}
+/*ESTRUCTURA PARA CREAR UN FLEXBOX*/
+.destaca {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: steelblue;
+    border-style:dashed;
+
+}
+
+header{
+    background-image: url(img/auto1.jpg);
+    display:flexbox;
+    flex-wrap: nowrap;
+    text-align:left;
+    padding: 5px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;/*Para poner o sacar subrayados, punteado, doble subrayado etc*/
+
+}
+a :hover{
+    color: darkgoldenrod;
+    text-decoration: double;
+}
+.vinculo{
+    background-color: steelblue;
+}

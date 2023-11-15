@@ -1,0 +1,127 @@
+<!DOCTYPE html><!--la etiqueta doctype se usa siempre-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""><!--descripcion para que nos encuentre el buscador-->
+    <meta name="keywords" content=""><!--contenido de palabras clave para el buscador-->
+    <title>Taller gas Monkey</title><!--titulo en la pestaña del buscador-->
+    <link rel="stylesheet" href="estilos.css"><!--enlace para linkear css-->
+    <link rel="shortcut icon" href="icono";type="image/x-icon"><!--coloca un icono en la pestaña del buscador-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--el estilo de todo es flexible
+    <style>
+        div{
+            display: flex;
+        }
+    </style>-->
+</head>
+
+<body>
+    <div class="conteiner-fluid"><!--estilo del body-->
+<!--elementos no semanticos div,span no dice nada sobre el contenido-->
+<!--elementos semanticos form, table, article, define su contenido-->
+<!--header es la cabecera puede tener el menu de navegacion, imagen, banner, logo-->
+<!--dentro del header ponemos el nav que es el menu de navegacion-->
+<!-- section se usa para dividir cada bloque-->
+
+<!--logo con el menú dentro de un div-->
+<!--mover el a de cierre al ultimo para que el logo vuelva la pagina al inicio-->
+        <header>   
+        <!--poner el nav dentro del un div para el menu de navegacion-->
+            <div><nav><a href="index.html">Inicio</a> | <a href="contacto.html">contacto</a> | <a href="quienessomos.html">quienes somos</a>
+        <!--banner del taller-->
+                <div><img src="img/2.jpg" alt="" height="200px"></div></nav>
+            </div>
+        </header>
+    <!--luego del header se coloca el main-->
+        <main>
+            <div>
+                <h1>titulo1</h1>
+                <section id="concha">
+
+                    <div class="destaca">
+                        <div>
+                            <h3>titulo1</h3>
+                            <img src="img/auto1.jpg" alt="" height="150px">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vitae fuga non, ea dolorum blanditiis esse officiis sed debitis vel architecto iure libero! Illum aspernatur quas, accusantium expedita dolor numquam.</p>
+                        </div>
+                        <div>
+                            <h3>titulo1</h3>
+                            <img src="img/fwfwe.jpg"alt="" height="150px">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vitae fuga non, ea dolorum blanditiis esse officiis sed debitis vel architecto iure libero! Illum aspernatur quas, accusantium expedita dolor numquam.</p>
+                        </div>
+                        <div>
+                            <h3>titulo1</h3>
+                            <img src="img/ghmu.jpg" alt="" height="150px">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vitae fuga non, ea dolorum blanditiis esse officiis sed debitis vel architecto iure libero! Illum aspernatur quas, accusantium expedita dolor numquam.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="otro ejemplo de seccion">
+                    <h2>titulo h2</h2>
+                    <div class="destaca">
+                        <div>
+                            <h3>pies</h3>
+                            <img src="imagen auto" alt="" height="150px">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vitae fuga non, ea dolorum blanditiis esse officiis sed debitis vel architecto iure libero! Illum aspernatur quas, accusantium expedita dolor numquam.</p>
+                        </div>
+                        
+                        <div>
+                            <h3>mano</h3>
+                            <img src="" alt="" height="150px">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem exercitationem ipsum natus distinctio nostrum illo, beatae amet nam commodi a mollitia magnam, earum adipisci provident, asperiores quo vel molestiae.</p>
+                        </div>
+                        <div>
+                            <h3>pata</h3>
+                            <img src="" alt="" height="150px">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem exercitationem ipsum natus distinctio nostrum illo, beatae amet nam commodi a mollitia magnam, earum adipisci provident, asperiores quo vel molestiae.</p>
+                        </div>
+                        <div>
+                            <h3>codo</h3>
+                            <img src="" alt="" height="150px">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem exercitationem ipsum natus distinctio nostrum illo, beatae amet nam commodi a mollitia magnam, earum adipisci provident, asperiores quo vel molestiae.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="ejemplo 3 de sectionid">
+                    <h3>titulo h3 teta</h3>
+                    <div class="destaca">
+                        <p>parrafo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi debitis culpa explicabo obcaecati, reprehenderit consequatur odit beatae et illo! Expedita reiciendis quasi nostrum neque quia quis, sunt totam consequuntur deserunt?</p>
+                    </div>
+                </section>
+                <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;    background-color:rgb(212, 226, 212);">
+                        <img src="img/auto1.jpg" class="card-img-top" alt="" height="150px">
+                        <div class="card-body">
+                          <h5 class="card-title; center"><b>Ford Sapo</b></h5>
+                          <p class="card-text">Ford la denominó “la cabina del millón de dólares”. Además de ser más amplia internamente, el contorno exterior de sus líneas era más suave y traía los faros integrados.</p></div>
+                    </div>
+                </div>
+
+            
+
+
+
+            </div>
+        </main>
+
+
+
+    </div>
+</body>
+<footer>
+    <!--lo que se coloca al ultimo-->
+    <i class="fa-fa copiright" aria-hidden="true">Creado en 2023</i>
+    <a href="#arriba">arriba</a><!-- coloca un boton para volver arriba-->
+    </footer>
+</html>
+<!--color= representa el color del contenido-->
+<!--background-color= representa el color de fondo del contenido-->
+<!--font-size= representa el tamaño de la letra del contenido-->
+<!--font-family representa el estilo de fuente-->
+<!--font-weight representa la densidad de la fuente-->
+<!-- color= representa la paleta de colores (colorhunt.co) sitio web para buscar colores-->
